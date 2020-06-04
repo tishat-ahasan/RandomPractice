@@ -39,8 +39,8 @@ int main()
             float tot2 = (mid2/2+1)*h+(mid2/2)*c;
             float av2 = tot2/mid2;
 
-            if (fabs(t-av2) <= fabs(t-av)) cout<<mid2<<endl;
-            else cout<<mid<<endl;
+            (fabs(t-av2) <= fabs(t-av)) ? (cout<<mid2<<endl) : (cout<<mid<<endl);
+
         }
     }
 
